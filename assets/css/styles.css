@@ -86,3 +86,19 @@ body {
 .active{
     border-bottom: 1px solid #ff4545;
 }
+
+/* footer */
+.social-media{
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media i{
+    font-size: 150%;
+    color: black;
+    letter-spacing: 100px;
+}
