@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -112,6 +115,7 @@ body {
 
 .social-media>li {
     display: inline;
+    justify-content:center;
 }
 
 .social-media i {
