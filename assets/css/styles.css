@@ -9,6 +9,9 @@ body {
     color: black;
     font-size: 25px;
     background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
@@ -101,4 +104,8 @@ body {
     font-size: 150%;
     color: black;
     letter-spacing: 100px;
+}
+
+footer{
+    margin-top: auto;
 }
