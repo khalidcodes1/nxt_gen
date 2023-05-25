@@ -45,12 +45,25 @@ body {
     grid-row-end: span 2;
     grid-column-start: 1;
     grid-column-end: 3;
+    background-image: url(../images/new-hero-min.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+     background-attachment: absolute;
+}
+.content_small1{
+    background-color: #034694;
+}
+.content_small{
+    background-color:silver ;
+
 }
 
 .footer{
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
 
 /* Logo and headings */
 #logo{
@@ -82,7 +95,6 @@ body {
 
 #menu a:hover{
     color: crimson;
-    font-size: 30px;
     border-bottom: 1px solid #ff4545;
 }
 
