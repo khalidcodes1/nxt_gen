@@ -66,6 +66,7 @@ body {
 }
 p{
     text-align: center;
+    text-justify: inter-word;
 }
 
 
@@ -80,10 +81,12 @@ h3{
     color: black;
     text-align: center;
     text-decoration: underline;
+    letter-spacing: 4px;
 }
 h2{
     color: black;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* navigation */
@@ -138,6 +141,7 @@ h2{
 
 footer {
     margin-top: auto;
+    
 }
 
 .footer {
