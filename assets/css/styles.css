@@ -11,9 +11,9 @@
 body {
     font-family: Archivo+Black, sans-serif;
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: 25px;
-    background-color: white;
+    background-color: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ body {
     grid-row-end: span 2;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-image: url(../images/new-hero-min.jpg);
+    background-image: url(../images/alliance-football-club-com.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -57,12 +57,15 @@ body {
 }
 
 .content_small1 {
-    background-color: #034694;
+    background-color: #1F51FF;
 }
 
 .content_small {
-    background-color: silver;
+    background-color: #ff3131;
 
+}
+p{
+    text-align: center;
 }
 
 
@@ -72,6 +75,15 @@ body {
     float: left;
     font-size: 200%;
     margin-left: 10px;
+}
+h3{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: black;
+    text-align: center;
 }
 
 /* navigation */
@@ -84,7 +96,7 @@ body {
 #menu,
 #logo {
     line-height: 60px;
-    color: black;
+    color: white;
 }
 
 #menu li {
@@ -120,7 +132,7 @@ body {
 
 .social-media i {
     font-size: 150%;
-    color: black;
+    color: white;
     letter-spacing: 100px;
 }
 
