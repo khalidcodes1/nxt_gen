@@ -300,8 +300,9 @@ footer {
         font-size: 100%;
     }
     #menu{
-        float: left;
-        display: inline;
+        margin: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
     }
 
 }
