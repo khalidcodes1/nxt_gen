@@ -301,6 +301,7 @@ footer {
     }
     #menu{
         float: left;
+        display: inline;
     }
 
 }
