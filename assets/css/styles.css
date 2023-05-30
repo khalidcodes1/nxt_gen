@@ -270,7 +270,6 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 100px 1fr 1fr 1fr 50px;
         gap: 0px;
-        padding: 10px;
         box-sizing: border-box;
     }
     
