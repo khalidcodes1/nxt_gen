@@ -88,6 +88,9 @@ h3{
 .content_small > h3{
     color: white;
 }
+.content_small1 > h3{
+    text-transform: uppercase;
+}
 h2{
     color: black;
     text-align: center;
@@ -129,8 +132,12 @@ h2{
 
 /* footer */
 .social-media {
+    display: flex;
     text-align: center;
     list-style-type: none;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .social-media>li {
@@ -141,7 +148,6 @@ h2{
 .social-media i {
     font-size: 150%;
     color: white;
-    letter-spacing: 100px;
 }
 
 footer {
@@ -153,7 +159,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 4;
 }
-
+/* Gallery page */
 .image-grid {
     --gap: 16px;
     --num-cols: 4;
@@ -174,17 +180,14 @@ footer {
     object-fit: cover;
 }
 /* Sign up page */
-.sign_up{
-    margin: 50px 50px 50px 320px;
-    color:#fff;
-    max-width:400px;
-    position:absolute;
-    left:10%;
-    padding:30px;
-    
+.form_section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.sign_up > h2{
+.form_section_container h2{
     color:#fafafa;
     margin-bottom:20px;
 }
@@ -215,6 +218,15 @@ footer {
 .join_button:hover{
     background-color:#fafafa;
     color:#f16c6b;
+}
+
+/* Response page */
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 /* media queries */
 @media screen and (max-width: 1200px) {
