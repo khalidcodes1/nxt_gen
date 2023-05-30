@@ -153,6 +153,7 @@ h2{
 
 footer {
     margin-top: auto;
+    height: 100px;
     
 }
 
@@ -160,6 +161,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
 /* Gallery page */
 .image-grid {
     --gap: 16px;
@@ -256,10 +258,6 @@ footer {
 }
 @media screen and (max-width:650px){
     #menu{
-        width: 50%;
-        margin: auto;
-        margin-left: 20px;
-        margin-bottom: 30px;
         line-height: 30px;
     }
 }
@@ -300,13 +298,9 @@ footer {
     #logo{
         font-size: 100%;
     }
-    #menu{
-        margin: auto;
-        margin-left: 20px;
-        margin-bottom: 30px;
-    }
-    h1 h2 h3{
-        font-size: smaller;
+    
+     h2{
+        font-size: 25px;
     }
 
 }
