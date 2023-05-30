@@ -296,6 +296,12 @@ footer {
         grid-row-start: 4;
         grid-row-end: span 1;
     }
+    #logo{
+        font-size: 100%;
+    }
+    #menu{
+        float: left;
+    }
 
 }
    
