@@ -23,53 +23,153 @@ The site can be accessed by this [link](https://khalidcodes1.github.io/nxt_gen/)
         * Sign Up - leads to the sign-up page where users can fill out the form in order to become a member.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
+    
+    ![NavBar desktop](documentation/navbar.png)
+
 
     + ### Home Page
 
     - Represent: 
 
-        * the main idea of the company.
-        * Emphasize the strong points of the company.
+        * The main ethos of the club.
+        * The locations of the youth club.
 
-        + #### Footer
+    ![Homepage](documentation/homepage.png)
+
+    + #### Hero Section
+
+    - Hero section has a fixed background image with the club's slogan.
+
+    ![Hero Section](documentation/hero.png)
+
+    + #### Ethos Section
+
+    - Ethos section contains a short message detailing the core values of the club.
+
+    ![Ethos Section](documentation/ethos.png)
+
+    + #### Locations Section
+
+    - Gives the user the locations of the youth club.
+
+    ![Location Section](documentation/locations.png)
+
+     + #### Footer
 
     - Footer contains social media links that open in a new tab.
+    ![Footer](documentation/footer.png)
 
-    ## Deployment
+    + ### Gallery Page
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/khalidcodes1/nxt_gen.git), navigate to the Settings tab
-  - From the code and automation section select pages 
-  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - It has photos of the existing members of the club.
 
-The live link can be found [here](https://khalidcodes1.github.io/nxt_gen/)
+        - The gallery is responsive: the size of the photo depends on the user's screen.
 
-## Local Deployment
+    - It has a footer identical to the home page's footer.
 
-In order to make a local copy of this project, you can clone it.
-In your IDE Terminal, type the following command to clone my repository:
+    ![Gallery Page](documentation/gallerypage.png)
 
+    + ### Contact page
 
+    - Contact page has a contact form:
 
+        - All text input fields are customized.
+        - Labels are animated when the input field is in focus and are not empty.
+        - All inputs are set to be required to fill out.
+        - It has 2 checkboxes for the user to choose the location they would prefer.
+        - Submit button is animated on hover.
+        - Submit button leads to the response page.
+
+         ![Contact Page](documentation/contactpage.png)
+
+         + ### Response page
+
+    - Response page appears after submitting the contact form.
+    - It contains a short message saying "We'll be in touch soon!" 
+    - It will automatically direct the user to the main page in 10 seconds.
+
+     ![Response Page](documentation/responsepage.png)
+
+     
+     ## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make the gallery page.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
 
 ## Design
 
-### Color Scheme
+### Colour Scheme
 
-- The main color scheme of the site is black and white due to their contrast. 
+- The main colour scheme used in the website is black and white due to their difference in contrast.
 
-- The strong contrast between the 2 colours also aids with the accessibility of the site.
+- Crimson was also used for the hover effect on the navigation bar and the focus on the form fields as well the join button.
+
+### Typography
+
+![Main Font](documentation/mainfont.png)
+
+- Roboto Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Header Font](documentation/header-font.png)
+
+- Archivo Black Google Font was used for the headings on the site.
+
+## Testing
+
+In order to confirm the correct functionality and responsiveness:
+
++ The website was tested on the following browsers:
+
+    - Chrome
+
+    - FireFox
+
+
++ The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+### Bugs
++ ##### Solved bugs
+    1. The layout of the homepage would become distorted on smaller devices due to the grid layout I had used.
+        *Solutions:* I created a media query that changed the original grid to another grid to accomodate smaller devices
+    
+   
 
 
 
 
 
- 
 
-## Credits
-### Tools
-- [TinyPNG](https://tinypng.com/) was used to compress jpeg images.
-### Media
-- [Unsplash](https://unsplash.com/) was used to source the images for the site.
+    
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+      
+
+  
         

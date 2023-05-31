@@ -185,9 +185,10 @@ footer {
 /* Sign up page */
 .form_section{
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .form_section_container h2{
@@ -248,19 +249,7 @@ footer {
     }
 
 }
-@media screen and (max-width: 650px) {
-    .image-grid {
-        --num-cols: 2;
-        --row-height: 200px;
 
-    }
-
-}
-@media screen and (max-width:650px){
-    #menu{
-        line-height: 30px;
-    }
-}
 @media screen and (max-width:689px){
     .container{
         width: 100vw;
@@ -301,6 +290,29 @@ footer {
     
      h2{
         font-size: 25px;
+    }
+    .center{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:650px){
+    #menu{
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .image-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+
+    }
+
+}
+@media screen and (max-width: 351px){
+    #menu{
+        display: flex;
+        font-weight: 400;
     }
 
 }
