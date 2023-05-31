@@ -166,8 +166,6 @@ In order to confirm the correct functionality and responsiveness:
 + ### HTML
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
-  #### Home Page
-    - No errors or warnings were found when passing through the official W3C validator.
 
 
     ![Home Page HTML Validator](documentation/w3_validator_index.png)
@@ -198,7 +196,47 @@ In order to confirm the correct functionality and responsiveness:
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-  The live link can be found [here](https://khalidcodes1.github.io/nxt_gen/)       
+  The live link can be found [here](https://khalidcodes1.github.io/nxt_gen/)
+
+  ## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/khalidcodes1/nxt_gen.git`
+
+## Future improvements
+- Increase the performance of the site by compressing images
+- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future).
+
+## Credits
+
++ #### Content
+
+    - The code for the social media links in the footer was taken from the Love Running walkthrough project.
+
+    + #### Media
+
+    - All the images for the website were taken from [Pexels](https://www.pexels.com/).
+    - (I should have put the links to each images individually unfortunately I did not save them.)
+
++ #### Tools
+
+    - [Tiny PNG](https://tinypng.com/) was used to compress JPEG images.
+
+## Acknowledgments
+
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) My mentor for her support and guidance throughout the project.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+   - [Flexbox-tutorial](https://www.youtube.com/watch?v=hwbqquXww-U&t=214s)
+   - [Grid-tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=529s)
+
+
+
+
+
+
     
    
 
