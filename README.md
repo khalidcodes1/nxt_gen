@@ -2,6 +2,8 @@
 
 NXT Generation is a website for a 2 youth clubs based in London. The site is targeted towards young people who are looking to join a club to partake in a variety of sporting activities and join a community of like minded people.
 The site can be accessed by this [link](https://khalidcodes1.github.io/nxt_gen/)
+![Responsive Mockup](documentation/am_I_responsive.png)
+
 ## User stories
 ### First Time Visitor Goals:
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the organization.
