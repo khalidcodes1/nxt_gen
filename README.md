@@ -131,10 +131,74 @@ In order to confirm the correct functionality and responsiveness:
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 
+### Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Navbar | | | | | |
+| Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
+| Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
+| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
+| Footer | | | | | |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Contact page | | | | | |
+| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+|Locations checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | If user does not check one of the options they will be prompted to choose. |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| Response page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
+
 ### Bugs
 + ##### Solved bugs
     1. The layout of the homepage would become distorted on smaller devices due to the grid layout I had used.
         *Solutions:* I created a media query that changed the original grid to another grid to accomodate smaller devices
+
++ ##### Unsolved bugs
+    - None.
+
+
+## Validator testing
++ ### HTML
+  #### Home Page
+    - No errors or warnings were found when passing through the official W3C validator.
+  #### Home Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+
+    ![Home Page HTML Validator](documentation/w3_validator_index.png)
+    
+  #### Gallery Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Gallery Page HTML Validator](documentation/w3_validator_gallery.png)
+
+  #### Sign up page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Contact Page HTML Validator](documentation/w3_validator_signup.png)
+
+  #### Response Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Page HTML Validator](documentation/w3_validator_response.png)
+
++ ### CSS
+  No errors were found when passing through the official W3C (Jigsaw) validator:
+    ![CSS Validator](documentation/w3_validator_css.png)  
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/khalidcodes1/nxt_gen.git), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  The live link can be found [here](https://khalidcodes1.github.io/nxt_gen/)       
     
    
 
