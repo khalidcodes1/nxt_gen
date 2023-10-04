@@ -226,13 +226,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
     - [Tiny PNG](https://tinypng.com/) was used to compress JPEG images.
 
-## Acknowledgments
 
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) My mentor for her support and guidance throughout the project.
-- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
-- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
-   - [Flexbox-tutorial](https://www.youtube.com/watch?v=hwbqquXww-U&t=214s)
-   - [Grid-tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=529s)
 
 
 
